@@ -1,1 +1,1 @@
-#H1 Duane K. Anderson
+# Duane K. Anderson
