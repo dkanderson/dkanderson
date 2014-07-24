@@ -28,7 +28,8 @@ var DKA = {
   // About us page, note the change from about-us to about_us.
   blog: {
     init: function() {
-      
+
+      }
     },
     portfolio: {
       init: function(){
