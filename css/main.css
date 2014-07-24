@@ -36,6 +36,10 @@ video {
     vertical-align: middle;
 }
 
+h1, h2, h3, h4, p{
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 /* ==========================================================================
 Browse Happy prompt
 ========================================================================== */
@@ -82,9 +86,14 @@ nav.main li a{
     color:#fff;
     text-decoration: none;
     height:100%;
+    display: block;
+    text-align: center;
     cursor: pointer;
 }
 
+body.home nav.main li.home a{
+    border-bottom:1px solid #f5bc2e;
+}
 
 #home-slider{
     position:absolute;
@@ -114,6 +123,25 @@ nav.main li a{
     position: absolute;
     top:280px;
     left:50%;
+    color:#fff;
+}
+.slider-text h1{
+    padding:0;
+    margin:0;
+    font-weight: 400;
+}
+.slider-text h1 em{
+    color:#f5bc2e;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 2em;
+}
+.slider-text p{
+    margin:0;
+    padding:0;
+}
+.slider-text a{
+    color:#f5bc2e;
+    text-decoration: none;
 }
 .macbook{
     position:absolute;
