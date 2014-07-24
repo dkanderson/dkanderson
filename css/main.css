@@ -18,11 +18,13 @@ html {
 
 ::-moz-selection {
     background: #e67500;
+    color:#fff;
     text-shadow: none;
 }
 
 ::selection {
     background: #e67500;
+    color:#fff;
     text-shadow: none;
 }
 
@@ -50,11 +52,39 @@ Portfolio Styles
 ==========================================================================*/
 header.main{
     position:relative;
-    z-index: 200;
+    z-index: 300;
     margin:0;
     padding: 0;
     width:100%;
+    height:170px;
+    overflow: hidden;
 }
+
+.branding{
+    position:absolute;
+    top:0;
+    left:0;
+}
+nav.main{
+    float:right;
+    position: relative;
+}
+nav.main ul{
+    list-style-type: none;
+}
+nav.main li{
+    float:left;
+}
+nav.main li a{
+    float:left;
+    padding:45px 20px 25px 20px;
+    line-height: 1;
+    color:#fff;
+    text-decoration: none;
+    height:100%;
+    cursor: pointer;
+}
+
 
 #home-slider{
     position:absolute;
@@ -64,17 +94,90 @@ header.main{
     height:670px;
     width:100%;
 }
-
+#home-slider .svg-holder{
+    position: absolute;
+    width:2560px;
+    left:50%;
+    margin-left:-1280px;
+    top:0;
+}
 #slider-main{
     position:absolute;
-    zindex:200;
+    z-index:201;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
 }
 
+.slider-text{
+    position: absolute;
+    top:280px;
+    left:50%;
+}
+.macbook{
+    position:absolute;
+    top:270px;
+    left:-40px;
+}
 .svg-holder, #slider-bg {
     transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1);
 }
 
+#skills{
+    margin-top: 500px;
+    padding-bottom: 60px;
+}
+.skill{
+    text-align: center;
+}
+.skill h2{
+    color:#e67500;
+    font-size: .9em;
+    text-transform: uppercase;
+}
+.skill .icon-wrap{
+    height:110px;
+    line-height: 110px;
+}
+.skill p{
+    font-size: .9em;
+    line-height: 1.5;
+    color:#969b9e;
 
+}
+
+#footer{
+    width:100%;
+    background-color: #222;
+}
+#footer h3{
+    font-size: .9em;
+    color:#f5bc2e;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+#footer p{
+    color:#6d7073;
+    font-size: 0.8em;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+#copy-wrap{
+    background-color: #000;
+    width:100%;
+}
+.copy{
+    font-size: .7em;
+    line-height: 3;
+    color:#65696d;
+}
+.copy a{
+    text-decoration: none;
+    color:#e5bc2e;
+}
 /* ==========================================================================
 Helper classes
 ========================================================================== */
