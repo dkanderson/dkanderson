@@ -1,4 +1,4 @@
-<!doctype php>
+<!doctype html>
 <php class="no-js" lang="">
     <head>
         <meta charset="utf-8">
@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.0.min.js"></script>
     </head>
-    <body class="bio">
+    <body class="<?php echo $body_class; ?>">
         <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -23,8 +23,12 @@
         <div class="bg-bleed-wrap">
             <header class="main" role="navigation">
                 <div class="container">
-                    <a class="branding" href="#"><img class="logo" src="img/logo2.png" alt="DKanderson Designs"></a>
-                    <div class="mob-trigger"></div>
+                    <a class="branding" href="#"><img class="logo" src="img/svg/logo.svg" alt="DKanderson Designs"></a>
+                    <a href="#" id="mob-trigger">
+                        <span class="bar1"></span>
+                        <span class="bar2"></span>
+                        <span class="bar3"></span>
+                    </a>
                     <nav class="main">
                         <ul class="clearfix">
                             <li class="home"><a href="index.php">home</a></li>
