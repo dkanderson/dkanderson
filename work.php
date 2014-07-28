@@ -1,18 +1,38 @@
-<?php $body_class = 'bio'; ?>
+<?php $body_class = 'work'; ?>
 <?php include 'templates/header.php' ?>
-        <section id="bio">
-            <header>
-                
-            </header>
-            <div class="container">
-                <h1>The greatness of a man is not in how much wealth he acquires, but in his integrity and his ability to affect those around him positively.</h1>
-                <div class="container eight columns">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nibh id risus faucibus facilisis vitae sollicitudin mi. Donec pulvinar magna quis feugiat feugiat. Aliquam at nisi massa. Integer fringilla aliquam dolor, sit amet pulvinar leo ullamcorper ac. Aliquam dolor sapien, porta ut erat nec, varius placerat elit. Nullam feugiat tortor et augue sodales, molestie iaculis purus tristique. Aenean pharetra libero non lacus commodo, id suscipit felis auctor. Etiam dignissim ante sed lorem feugiat accumsan. Vivamus in est orci. Nunc rutrum nisi in pharetra adipiscing.</p>
-                </div>
-                <div class="container eight columns">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nibh id risus faucibus facilisis vitae sollicitudin mi. Donec pulvinar magna quis feugiat feugiat. Aliquam at nisi massa. Integer fringilla aliquam dolor, sit amet pulvinar leo ullamcorper ac. Aliquam dolor sapien, porta ut erat nec, varius placerat elit. Nullam feugiat tortor et augue sodales, molestie iaculis purus tristique. Aenean pharetra libero non lacus commodo, id suscipit felis auctor. Etiam dignissim ante sed lorem feugiat accumsan. Vivamus in est orci. Nunc rutrum nisi in pharetra adipiscing.</p>
-                </div>
-            </div>
+        <section id="folio" class="cf">
+            <article class="project">
+                <a class="soleil" title="Soleil Laurent" href="#">
+                    <div class="description">
+                        <h1>Soleil Laurent</h1>
+                        <p>Aspiring RnB artiste Soleil Laureent</p>
+                    </div>
+                </a>
+            </article>
+            <article class="project">
+                <a class="fitfarm" title="Soleil Laurent" href="#">
+                    <div class="description">
+                        <h1>Soleil Laurent</h1>
+                        <p>Aspiring RnB artiste Soleil Laureent</p>
+                    </div>
+                </a>
+            </article>
+            <article class="project">
+                <a class="tossnroll" title="Soleil Laurent" href="#">
+                    <div class="description">
+                        <h1>Soleil Laurent</h1>
+                        <p>Aspiring RnB artiste Soleil Laureent</p>
+                    </div>
+                </a>
+            </article>
+            <article class="project">
+                <a class="creative" title="Soleil Laurent" href="#">
+                    <div class="description">
+                        <h1>Soleil Laurent</h1>
+                        <p>Aspiring RnB artiste Soleil Laureent</p>
+                    </div>
+                </a>
+            </article>
         </section>
         <section id="skills" role="content">
             <div class="container sixteen columns">
