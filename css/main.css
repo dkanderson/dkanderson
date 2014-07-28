@@ -152,6 +152,57 @@ nav.main li a{
 }
 
 
+article.project a{
+        display: block;
+        width:100%;
+        height:200px;
+        position: relative;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        text-decoration: none;
+
+    }
+    article.project a img{
+        max-width:100%;
+        height:100%;
+
+    }
+    article.project a .description{
+        width:80px;
+        height:80px;
+        border-radius: 50%;
+        background-color: #3d8dc1;
+        text-align: center;
+        line-height: 80px;
+        position:absolute;
+        top:50%;
+        margin-top:-40px;
+        left:50%;
+        margin-left: -40px;
+    }
+    article.project a .description h1{
+        font-size: 46px;
+        color:#fff;
+        font-family: 'Roboto Slab', 'sans-serif';
+        font-weight: 100;
+    }
+    article.project a.soleil{
+        background-image: url(../img/soleil.jpg);
+    }
+    article.project a.fitfarm{
+        background-image: url(../img/fitfarm.jpg);
+    }
+    article.project a.tossnroll{
+        background-image: url(../img/tossnroll.jpg);
+    }
+    article.project a.creative{
+        background-image: url(../img/creative.jpg);
+    }
+    article.project a h1{
+        margin:0;
+    }
+
 
 /* ==========================================================================
 Home Page Specific
@@ -386,7 +437,7 @@ Modify as content requires.
     #folio{
         width:100%;
         overflow: hidden;        
-        background:#222;
+        background:#3d8dc1;
     }
     article.project{
         position: relative;
@@ -396,7 +447,7 @@ Modify as content requires.
     article.project a{
         display: block;
         width:100%;
-        height:400px;
+        height:300px;
         position: relative;
         background-position: center center;
         background-repeat: no-repeat;
