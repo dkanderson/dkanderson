@@ -1,11 +1,12 @@
 <?php $body_class = 'bio'; ?>
 <?php include 'templates/header.php' ?>
         <section id="bio">
-            <header>
-                
-            </header>
+           <div class="intro">
+                <div class="container">
+                    <h1>All you need to know about me.</h1>
+                </div>
+            </div>
             <div class="container">
-                <h1>The greatness of a man is not in how much wealth he acquires, but in his integrity and his ability to affect those around him positively.</h1>
                 <div class="container eight columns">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nibh id risus faucibus facilisis vitae sollicitudin mi. Donec pulvinar magna quis feugiat feugiat. Aliquam at nisi massa. Integer fringilla aliquam dolor, sit amet pulvinar leo ullamcorper ac. Aliquam dolor sapien, porta ut erat nec, varius placerat elit. Nullam feugiat tortor et augue sodales, molestie iaculis purus tristique. Aenean pharetra libero non lacus commodo, id suscipit felis auctor. Etiam dignissim ante sed lorem feugiat accumsan. Vivamus in est orci. Nunc rutrum nisi in pharetra adipiscing.</p>
                 </div>
