@@ -71,7 +71,7 @@ Common Classes
     width:100%;
 }
 .intro h1{
-    color:#3d8dc1;
+    color:#00ace6;
     font-size: 40px;
     font-family: 'Roboto slab';
     font-weight: 700;
@@ -148,7 +148,7 @@ nav.main li a{
     font-family: 'Roboto slab', 'sans-serif';
 }
 #welcome p{
-    color:#f5bc2e;
+    color:#FDA50D;
 }
 
 
@@ -172,7 +172,7 @@ article.project a{
         width:80px;
         height:80px;
         border-radius: 50%;
-        background-color: #3d8dc1;
+        background-color: #00ace6;
         text-align: center;
         line-height: 80px;
         position:absolute;
@@ -220,7 +220,7 @@ Home Page Specific
     text-align: center;
 }
 .skill h2{
-    color:#e67500;
+    color:#00ace6;
     font-size: .9em;
     text-transform: uppercase;
 }
@@ -235,17 +235,27 @@ Home Page Specific
 
 }
 
+/* =========================================================================
+Blog
+==========================================================================*/
+
+.bg-bleed-wrap.blog-header{
+    background: #222 url(../img/simple_dashed.png) 0 0 repeat;
+}
+
+
 /* ==========================================================================
 Footer
 ========================================================================== */
 
 #footer{
     width:100%;
-    background-color: #222;
+    background: #222 url(../img/blackorchid.png) 0 0 repeat;
+
 }
 #footer h3{
     font-size: .9em;
-    color:#f5bc2e;
+    color:#ff8e19;
     line-height: 1.5;
     margin-bottom: 20px;
     margin-top: 60px;
@@ -268,7 +278,7 @@ Footer
 }
 .copy a{
     text-decoration: none;
-    color:#e5bc2e;
+    color:#ff8e19;
 }
 /* ==========================================================================
 Helper classes
@@ -396,8 +406,8 @@ Modify as content requires.
     }
 
     body.home nav.main li.home a, body.bio nav.main li.bio a, body.work nav.main li.work a, body.blog nav.main li.blog a, body.contact nav.main li.contact a{
-        border-color: #f5bc2e;
-        color:#f5bc2e;
+        border-color: #FDA50D;
+        color:#FDA50D;
     }
 
     .logo{
@@ -412,7 +422,7 @@ Modify as content requires.
         font-weight: 400;
     }
     .slider-text h1 em{
-        color:#f5bc2e;
+        color:#994e00;
         font-family: Georgia, Times, "Times New Roman", serif;
         font-size: 1.5em;
         font-weight: 300;
@@ -422,7 +432,7 @@ Modify as content requires.
         padding:0;
     }
     .slider-text a{
-        color:#f5bc2e;
+        color:#994e00;
         text-decoration: none;
     }  
 
@@ -437,7 +447,7 @@ Modify as content requires.
     #folio{
         width:100%;
         overflow: hidden;        
-        background:#3d8dc1;
+        background:#00ace6;
     }
     article.project{
         position: relative;
