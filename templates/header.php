@@ -20,7 +20,7 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <div class="bg-bleed-wrap">
+        <div class="bg-bleed-wrap <?php if($body_class == 'blog'){ echo 'blog-header'; } ?>">
             <header class="main" role="navigation">
                 <div class="container">
                     <a class="branding" href="#"><img class="logo" src="img/svg/logo.svg" alt="DKanderson Designs"></a>
