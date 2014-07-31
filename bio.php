@@ -1,6 +1,7 @@
 <?php $body_class = 'bio'; ?>
 <?php include 'templates/header.php' ?>
         <section id="bio">
+           <img src="img/mac_bg.jpg" alt="" class="full">
            <div class="intro">
                 <div class="container">
                     <h1>All you need to know about me.</h1>
