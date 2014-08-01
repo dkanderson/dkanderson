@@ -74,11 +74,14 @@ Common Classes
     text-align: center;
     width:100%;
 }
-.intro h1{
+.intro h1, .post h2 a{
     color:#00ace6;
     font-size: 40px;
-    font-family: 'Roboto slab';
+    font-family: 'Roboto slab', sans-serif;
     font-weight: 700;
+}
+.fancy{
+    font-family: 'Goudy Bookletter 1911', serif;
 }
 
 
@@ -254,7 +257,79 @@ Blog
 .bg-bleed-wrap.blog-header{
     background: #222 url(../img/simple_dashed.png) 0 0 repeat;
 }
-
+.post h2 a{
+    text-decoration: none;
+    display: block;
+    padding:40px 0;
+    font-size: 46px;
+    font-weight: 100;
+    width:80%;
+    border-bottom:1px dotted #fff;
+    border-bottom:1px dotted rgba(0, 0, 0, .12);
+}
+.intro.blog{
+    background:#e67500;
+    padding:0 20px;
+}
+.intro.blog h1{
+    font-family: 'Open Sans', 'sans-serif';
+    font-weight: 300;
+    color:#fff;
+    margin:0;
+    line-height: 2em;
+}
+.intro.blog h1 em{
+    color:#000;
+}
+.post{
+    padding-bottom: 40px;
+    position:relative;
+}
+.post .post-date{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    background: #00ace6;
+    text-align: center;
+    position:absolute;
+    top:40px;
+    right:40px;
+}
+.post .post-date p{
+    padding:0;
+    color:#fff;
+}
+.post .post-date strong, .post .post-date span{
+    display: block;
+}
+.post .post-date strong{
+    font-size: 28px;
+    line-height: 1;
+}
+.comments-link{
+    text-decoration: none;
+    color:#666;
+    font-weight: 700;
+}
+.comments-link span{
+    font-weight: 100;
+}
+.comments-link:hover{
+    color:#000;
+}
+.comments-link:hover span{
+    color:#e67500;
+}
+.rm a{
+    display: inline-block;
+    padding:40px 0;
+    color:#000;
+    text-decoration: none;
+    font-weight: 700;
+}
+.rm a:hover{
+    color:#e67500;
+}
 
 /* ==========================================================================
 Footer
