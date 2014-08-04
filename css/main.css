@@ -79,6 +79,8 @@ Common Classes
     font-size: 40px;
     font-family: 'Roboto slab', sans-serif;
     font-weight: 700;
+    text-shadow:1px 1px 1px rgba(0,0,0,0.2);
+
 }
 .fancy{
     font-family: 'Goudy Bookletter 1911', serif;
@@ -104,11 +106,25 @@ header.main{
     width:100%;
     display: block;
 }
-.logo{
+.branding svg{
     margin-top:15px;
     width:60px;
     height:60px;
     margin-bottom: 15px;
+    -webkit-transition: all 5 ease;
+    -o-transition: all 5 ease;
+    transition: all 5 ease;
+}
+
+.ring, .dee{fill: #ffffff;}
+.blob{
+    fill: none;
+}
+svg:hover .blob{
+    fill: #ffffff;
+}
+svg:hover .dee{
+    fill: #e67500;
 }
 nav.main{
     float:none;
