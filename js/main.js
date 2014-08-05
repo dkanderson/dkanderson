@@ -59,7 +59,8 @@ var DKA = {
   bio: {
     init: function(){
       // bio page only
-      
+        $('.mac-bg h1').addClass('move-up');
+        
         $('.progress').each(function(i, el){
           var el = $(el);
           if (el.visible(true)) {
