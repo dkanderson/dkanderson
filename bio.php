@@ -1,7 +1,8 @@
 <?php $body_class = 'bio'; ?>
 <?php include 'templates/header.php' ?>
         <section id="bio">
-           <img src="img/mac_bg.jpg" alt="" class="full">
+           <div class="mac-bg"></div>
+           <!--img src="img/mac_bg.jpg" alt="" class="full"-->
            <div class="intro">
                 <div class="container">
                     <h1>All you need to know about me.</h1>
@@ -16,28 +17,63 @@
                 </div>
             </div>
         </section>
-        <section id="skills" role="content">
-            <div class="container sixteen columns">
-                <div class="skill four columns">
-                    <div class="icon-wrap"><img class="skill-icon" src="img/icon-screen.png" alt=""></div>
-                    <h2>Web Design</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac feugiat arcu. Suspendisse potenti. Nulla molestie scelerisque risus eget vulputate.</p>
-                </div>
-                <div class="skill four columns">
-                    <div class="icon-wrap"><img class="skill-icon" src="img/icon-wp.png" alt=""></div>
-                    <h2>Wordpress Development</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac feugiat arcu. Suspendisse potenti. Nulla molestie scelerisque risus eget vulputate.</p>
-                </div>
-                <div class="skill four columns">
-                    <div class="icon-wrap"><img class="skill-icon" src="img/icon-gear.png" alt=""></div>
-                    <h2>Application Development</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac feugiat arcu. Suspendisse potenti. Nulla molestie scelerisque risus eget vulputate.</p>
-                </div>
-                <div class="skill four columns">
-                    <div class="icon-wrap"><img class="skill-icon" src="img/icon-bulb.png" alt=""></div>
-                    <h2>Creative Ideas</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac feugiat arcu. Suspendisse potenti. Nulla molestie scelerisque risus eget vulputate.</p>
+        <section id="skillset">
+            <header class="container">
+                <h1>Honest personal evaluation of current skillset</h1>
+            </header>
+            <div class="container">
+                <div id="skill-chart">
+                    <h2>Front End</h2>
+                    <ul class="skillset">
+                        <li class="skill">
+                            <h3>CSS</h3> 
+                            <div class="css progress"><span>95%</span></div>
+                        </li>
+                        <li class="skill">
+                            <h3>HTML5</h3>
+                            <div class="html5 progress"><span>80%</span></div>
+                        </li>
+                        <li class="skill">
+                            <h3>jQuery</h3>
+                            <div class="jquery progress"><span>70%</span></div>
+                        </li>
+                        <li class="skill">
+                            <h3>Javascript</h3>
+                            <div class="javascript progress"><span>60%</span></div>
+                        </li>
+                    </ul>
+                    <h2>Backend</h2>
+                    <ul class="skillset">
+                        <li class="skill">
+                            <h3>PHP</h3> 
+                            <div class="php progress"><span>50%</span></div>
+                        </li>
+                        <li class="skill">
+                            <h3>Nodejs</h3>
+                            <div class="node progress"><span>30%</span></div>
+                        </li>
+                    </ul>
+                    <h2>CMS</h2>
+                    <ul class="skillset">
+                        <li class="skill">
+                            <h3>Wordpress</h3> 
+                            <div class="wordpress progress"><span>75%</span></div>
+                        </li>
+                        <li class="skill">
+                            <h3>Joomla</h3>
+                            <div class="joomla progress"><span>50%</span></div>
+                        </li>
+                        <li class="skill">
+                            <h3>Drupal</h3>
+                            <div class="drupal progress"><span>30%</span></div>
+                        </li>
+                    </ul>
+
                 </div>
             </div>
+            <footer class="container">
+                <p>Disclaimer: The above values are subject to change based on constant improvement.</p>
+            </footer>
         </section>
+        
         <?php include 'templates/footer.php' ?>
