@@ -285,6 +285,22 @@ div.mac-bg{
     background-position: top left;
     background-size: 100%;
     overflow: hidden;
+    position: relative;
+}
+.mac-bg h1{
+    position:absolute;
+    right:20%;
+    top:20%;
+    color:rgba(255,255,255,0.2);
+    font-weight: 300;
+    font-size: 46px;
+}
+.move-up {
+  transform: translateY(150px);
+  animation: move-up 2s ease forwards;
+}
+@keyframes move-up{
+    to{ transform: translateY(0); }
 }
 
 #skill-chart{
