@@ -1,7 +1,7 @@
 <?php $body_class = 'bio'; ?>
 <?php include 'templates/header.php' ?>
         <section id="bio">
-           <div class="mac-bg"></div>
+           <div class="mac-bg"><h1>Duane K. Anderson</div>
            <!--img src="img/mac_bg.jpg" alt="" class="full"-->
            <div class="intro">
                 <div class="container">
