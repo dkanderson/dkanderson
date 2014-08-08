@@ -78,6 +78,24 @@ var DKA = {
 
         
       }
+    },
+    work: {
+      init: function(){
+        var el = $('.description').find('h1'), fl;
+        el.each(function(i, el){
+            var newel = $(el);
+            fl = newel.text().charAt(0);
+            $(this).parent().find('span').append(fl);
+        });
+
+        $('.project a').hover(function(){
+          $(this).find('.tech').addClass('animate');
+          $(this).find('h1').addClass('animate');
+        }, function(){
+          $(this).find('.tech').removeClass('animate');
+          $(this).find('h1').removeClass('animate');
+        });
+      }
     }
   };
 
