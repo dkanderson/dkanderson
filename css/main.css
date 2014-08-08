@@ -94,12 +94,9 @@ Common Classes
     font-family: 'Goudy Bookletter 1911', serif;
 }
 
-
 /* =========================================================================
-Portfolio Styles
+ Navigation Mobile First
 ==========================================================================*/
-
-/* Navigation */
 
 header.main{
     position:relative;
@@ -167,21 +164,10 @@ nav.main li a{
     background-color: #fff;
 }
 
-#welcome{
-    padding:3em 0;
-    text-align: center;
-}
-#welcome h1{
-    color:#fff;
-    font-weight: 100;
-    font-size: 52px;
-    line-height: 60px;
-    font-family: 'Roboto slab', 'sans-serif';
-}
-#welcome p{
-    color:#eee;
-    color: rgba(255, 255, 255, 0.5);
-}
+/* =========================================================================
+Portfolio Styles
+==========================================================================*/
+
 
 article.project a{
     display: block;
@@ -192,7 +178,8 @@ article.project a{
     background-repeat: no-repeat;
     background-size:cover;
     text-decoration: none;
-
+    overflow: hidden;
+    text-align: center;
 }
 article.project a img{
     max-width:100%;
@@ -200,6 +187,24 @@ article.project a img{
 
 }
 article.project a .description{
+    position: relative;
+    width:100%;
+    height:200px;
+    transition: background .5s ease-in;
+}
+article.project a:hover .description{
+    background: rgba(255,142,25,0.7);
+}
+
+
+article.project a .description span, article.project a .description h1{
+    display: block;
+    font-size: 46px;
+    color:#fff;
+    font-family: 'Roboto Slab', 'sans-serif';
+    font-weight: 100;
+}
+article.project a .description span{
     width:80px;
     height:80px;
     border-radius: 50%;
@@ -211,12 +216,74 @@ article.project a .description{
     margin-top:-40px;
     left:50%;
     margin-left: -40px;
+    transition: background .2s ease;
+}
+article.project a:hover .description span{
+    background: #fff;
+    color:#e67500;
 }
 article.project a .description h1{
-    font-size: 46px;
+    position: absolute;
+    width:100%;
+    font-size: 30px;
+    top: 30px;
+    text-align: center;
+    -webkit-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    -o-transform: translateY(50px);
+    transform: translateY(50px);
+
+    opacity: 0;
+
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+    
+    
+}
+.tech{
+    position: absolute;
+    bottom:20px;
+    width:100%;
+    text-align: center;
+    -webkit-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    -o-transform: translateY(50px);
+    transform: translateY(50px);
+}
+.tech ul{
+    list-style-type: none;
+    margin:0; 
+    padding:0;
+    display: inline-table;
+}
+.tech ul li{
     color:#fff;
-    font-family: 'Roboto Slab', 'sans-serif';
+    display: inline;
+    text-transform: uppercase;
     font-weight: 100;
+    font-family: 'roboto slab', sans-serif;
+    margin-right:10px;
+}
+.animate{
+  -webkit-animation: move-up .5s ease-in forwards;
+  -o-animation: move-up .5s ease-in forwards;
+  animation: move-up .5s ease-in forwards;
+
+
+}
+article.project a .description h1.animate{
+    opacity:1;
+
+    -webkit-transition: opacity 1s ease-in;
+    -moz-transition: opacity 1s ease-in;
+    -ms-transition: opacity 1s ease-in;
+    -o-transition: opacity 1s ease-in;
+    transition: opacity 1s ease-in;
+
+    
 }
 article.project a.soleil{
     background-image: url(../img/soleil.jpg);
@@ -235,6 +302,9 @@ article.project a h1{
 }
 
 
+
+
+
 /* ==========================================================================
 Home Page Specific
 ========================================================================== */
@@ -242,6 +312,22 @@ Home Page Specific
 .bg-bleed-wrap{
     background-color: #00ace6;
     border-bottom:1px solid #fff;
+}
+
+#welcome{
+    padding:3em 0;
+    text-align: center;
+}
+#welcome h1{
+    color:#fff;
+    font-weight: 100;
+    font-size: 52px;
+    line-height: 60px;
+    font-family: 'Roboto slab', 'sans-serif';
+}
+#welcome p{
+    color:#eee;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 #skills{
@@ -264,7 +350,6 @@ Home Page Specific
     font-size: .9em;
     line-height: 1.5;
     color:#969b9e;
-
 }
 
 
@@ -296,12 +381,29 @@ div.mac-bg{
     font-size: 46px;
 }
 .move-up {
+  -webkit-transform: translateY(150px);
+  -ms-transform: translateY(150px);
+  -o-transform: translateY(150px);
   transform: translateY(150px);
-  animation: move-up 2s ease forwards;
+
+  -webkit-animation: move-up 2s ease-in forwards;
+  -o-animation: move-up 2s ease-in forwards;
+  animation: move-up 2s ease-in forwards;
 }
+
 @keyframes move-up{
     to{ transform: translateY(0); }
 }
+@-webkit-keyframes move-up {
+    to { -webkit-transform: translateY(0); }
+}
+@-o-keyframes move-up {
+    to {  -o-transform: translateY(0);}
+}
+@-moz-keyframes move-up {
+    to {  -moz-transform: translateY(0);}
+}
+
 
 #skill-chart{
     width:100%;
@@ -432,6 +534,7 @@ Blog
 .post .post-date p{
     padding:0;
     color:#fff;
+    line-height: 1.2;
 }
 .post .post-date strong, .post .post-date span{
     display: block;
@@ -585,10 +688,9 @@ Media Queries for Responsive Design.
 
     
 
-    header.main{
-        
-       
-    }
+    /* nav
+    ------------------------------ */
+
     .branding{
         position:absolute;
         top:0;
@@ -640,34 +742,20 @@ Media Queries for Responsive Design.
         width:60px;
         height:60px;
     }
+
+    /* Bio 
+    --------------------------*/
     
-    .slider-text h1{
-        padding:0;
-        margin:0;
-        font-weight: 400;
-    }
-    .slider-text h1 em{
-        color:#994e00;
-        font-family: Georgia, Times, "Times New Roman", serif;
-        font-size: 1.5em;
-        font-weight: 300;
-    }
-    .slider-text p{
-        margin:0;
-        padding:0;
-    }
-    .slider-text a{
-        color:#994e00;
-        text-decoration: none;
-    }  
-
-
+    
     #bio header{
         min-height:200px;
         width:100%;
         background: url(../img/mac_bg.jpg) 0 0 no-repeat;
         background-size: 100%;
     }
+
+    /* Portfolio
+    --------------------------*/
 
     #folio{
         width:100%;
@@ -688,23 +776,10 @@ Media Queries for Responsive Design.
         background-repeat: no-repeat;
         background-size:cover; 
     }
-    article.project a img{
-        max-width:100%;
-        height:100%;
-
+    article.project a .description{
+        height:300px;
     }
-    article.project a.soleil{
-        background-image: url(../img/soleil.jpg);
-    }
-    article.project a.fitfarm{
-        background-image: url(../img/fitfarm.jpg);
-    }
-    article.project a.tossnroll{
-        background-image: url(../img/tossnroll.jpg);
-    }
-    article.project a.creative{
-        background-image: url(../img/creative.jpg);
-    }
+    
     article.project a h1{
         margin:0;
     }
