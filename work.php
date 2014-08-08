@@ -10,32 +10,63 @@
             <article class="project">
                 <a class="soleil" title="Soleil Laurent" href="#">
                     <div class="description">
-                        <h1>S</h1>
-                        
+                        <span></span>
+                        <h1>Soleil Laurent</h1>
+                    </div>
+                    <div class="tech">
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Javascript</li>
+                            <li>Wordpress</li>
+                        </ul>
                     </div>
                 </a>
             </article>
             <article class="project">
                 <a class="fitfarm" title="Fit Farm" href="#">
                     <div class="description">
-                        <h1>F</h1>
-                        
+                        <span></span>
+                        <h1>Fitfarm</h1>
+                    </div>
+                    <div class="tech">
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Javascript</li>
+                            <li>Wordpress</li>
+                        </ul>
                     </div>
                 </a>
             </article>
             <article class="project">
                 <a class="tossnroll" title="TossandRoll" href="#">
                     <div class="description">
-                        <h1>T</h1>
-                        
+                        <span></span>
+                        <h1>Toss and Roll</h1>
+                    </div>
+                    <div class="tech">
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Javascript</li>
+                        </ul>
                     </div>
                 </a>
             </article>
             <article class="project">
                 <a class="creative" title="Creative Building Finishes" href="#">
                     <div class="description">
-                        <h1>C</h1>
-                        
+                        <span></span>
+                        <h1>Creative Building Finishes</h1>
+                    </div>
+                    <div class="tech">
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Javascript</li>
+                            <li>Wordpress</li>
+                        </ul>
                     </div>
                 </a>
             </article>
