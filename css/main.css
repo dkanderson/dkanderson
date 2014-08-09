@@ -342,9 +342,12 @@ Home Page Specific
     font-size: .9em;
     text-transform: uppercase;
 }
-.skill .icon-wrap{
+.skill .icon-wrap, .skill .icon-wrap svg{
     height:110px;
     line-height: 110px;
+}
+.skill .icon-wrap{
+    margin-bottom: 40px;
 }
 .skill p{
     font-size: .9em;
