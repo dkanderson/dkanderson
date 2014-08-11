@@ -8,7 +8,7 @@
         </div>
         <section id="folio" class="cf">
             <article class="project">
-                <a class="soleil" title="Soleil Laurent" href="#">
+                <a href="project.php" class="soleil" title="Soleil Laurent" href="#">
                     <div class="description">
                         <span></span>
                         <h1>Soleil Laurent</h1>
@@ -24,7 +24,7 @@
                 </a>
             </article>
             <article class="project">
-                <a class="fitfarm" title="Fit Farm" href="#">
+                <a href="project.php" class="fitfarm" title="Fit Farm" href="#">
                     <div class="description">
                         <span></span>
                         <h1>Fitfarm</h1>
@@ -40,7 +40,7 @@
                 </a>
             </article>
             <article class="project">
-                <a class="tossnroll" title="TossandRoll" href="#">
+                <a href="project.php" class="tossnroll" title="TossandRoll" href="#">
                     <div class="description">
                         <span></span>
                         <h1>Toss and Roll</h1>
@@ -55,7 +55,7 @@
                 </a>
             </article>
             <article class="project">
-                <a class="creative" title="Creative Building Finishes" href="#">
+                <a href="project.php" class="creative" title="Creative Building Finishes" href="#">
                     <div class="description">
                         <span></span>
                         <h1>Creative Building Finishes</h1>
