@@ -4,6 +4,13 @@
 
 ##Responsive 
 
-* Almost there, I have no idea what to write just testing my markdown skills 
-* Another point, dont take yourself too seriously :)
-* Yet another point, how about that show silicon valley, crazy right... yeah enough
+* fully responsive down to mobile
+
+## SVG
+
+* Integration of svg icons for better display on retina devices as well as better control with css
+* SVG sprites, very cool technique browser support seems spotty but fallbacks will be implemented.
+
+## Wordpress
+
+* Next step will be wordpress integration using [roots starter theme](http://github.com/roots/roots)
