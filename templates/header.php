@@ -17,6 +17,7 @@
         <script src="js/vendor/modernizr-2.8.0.min.js"></script>
     </head>
     <body class="<?php echo $body_class; ?>">
+    <?php include 'img/svg/sprites.svg' ?>
         <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
