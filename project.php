@@ -1,8 +1,9 @@
 <?php $body_class = 'work'; ?>
 <?php include 'templates/header.php' ?>
+
 <section id="client-banner" style="background-image:url(img/soleil_lg.jpg)">
 	<a class="project-link" href="http://soleillaurent.com">S</a>
-	<div class="project-nav"><a href="#">&laquo;</a><a href="#">&raquo;</a></div>
+	<div class="project-nav"><a class="prev-project" href="#"><svg class="icon icon-arrow-left" viewBox="0 0 32 32"><use xlink:href="#icon-arrow-left"></use></svg></a><a class="next-project" href="#"><svg class="icon icon-arrow-left2" viewBox="0 0 32 32"><use xlink:href="#icon-arrow-left2"></use></svg></a></div>
 </section>
 <section id="soleil_laurent">
 	<div class="container sixteen columns clearfix">
