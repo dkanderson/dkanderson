@@ -503,14 +503,14 @@ article.project a h1{
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-color: #e67500;
+    background-color: #fff;
     text-align: center;
     line-height: 80px;
     position:absolute;
     bottom:-40px;
     left:50%;
     margin-left: -60px;
-    color:#fff;
+    color:#e67500;
     font-size: 40px;
     font-family: 'roboto slab';
     font-weight: 300;
@@ -521,8 +521,8 @@ article.project a h1{
     transition: background .2s ease;
 }
 .project-link:hover{
-    background:#fff;
-    color:#e67500;
+    background:#e67500;
+    color:#fff;
 }
 
 .fold{
