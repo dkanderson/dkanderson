@@ -14,3 +14,4 @@
 ## Wordpress
 
 * Next step will be wordpress integration using [roots starter theme](http://github.com/roots/roots)
+* Wordpress repo [here](https://github.com/dkanderson/dka_wp)
