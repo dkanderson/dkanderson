@@ -1,6 +1,6 @@
 # Duane K. Anderson
 
-[site url](http://dkanderson.com)
+[site url](http://dkanderson.com) | [Live Demo](http://demos.dkanderson.com/dka)
 
 ##Responsive 
 
